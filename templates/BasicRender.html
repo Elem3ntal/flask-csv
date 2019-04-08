@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <p>Llaves de los valores maximos en el diccionario:</p>
+    <ul>
+        {% for value in max_values %}
+            <li>valor maximo: {{ value }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
